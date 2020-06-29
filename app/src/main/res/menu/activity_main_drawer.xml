@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/menu_home" />
+
+        <item
+            android:id="@+id/nav_AddDevice"
+            android:icon="@drawable/ic_smartphone_black_24dp"
+            android:title="How To Add Device" />
+        <item
+            android:id="@+id/nav_RemoveDevice"
+            android:icon="@drawable/ic_phonelink_erase_black_24dp"
+            android:title="Remove Device" />
+
+        <item
+            android:id="@+id/editProfile4"
+            android:icon="@drawable/ic_edit_black_24dp"
+            android:title="Edit Profile" />
+
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/contactUs"
+                android:icon="@drawable/ic_email_black_24dp"
+                android:title="Contact US"  />
+
+            <item
+                android:id="@+id/how_It_Work"
+                android:icon="@drawable/ic_play_for_work_black_24dp"
+                android:title="How It work" />
+        </menu>
+    </item>
+
+</menu>

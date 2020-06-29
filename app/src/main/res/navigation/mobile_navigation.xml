@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.parent.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_AddDevice"
+        android:name="com.example.parent.ui.AddDevice.AddDevice"
+        android:label="Add Device"
+        tools:layout="@layout/add_device_fragment" />
+
+    <fragment
+        android:id="@+id/nav_RemoveDevice"
+        android:name="com.example.parent.ui.RemoveDevice.RemoveDevice"
+        android:label="Remove Device"
+        tools:layout="@layout/remove_device_fragment" />
+
+    <fragment
+        android:id="@+id/editProfile4"
+        android:name="com.example.parent.ui.EditProfile.editProfile"
+        android:label="Edit Profile"
+        tools:layout="@layout/fragment_edit_profile" />
+    <fragment
+        android:id="@+id/contactUs"
+        android:name="com.example.parent.ui.ContactUs.contactUs"
+        android:label="Contact Us"
+        tools:layout="@layout/fragment_contact_us" />
+    <fragment
+        android:id="@+id/how_It_Work"
+        android:name="com.example.parent.ui.HowItWork.how_It_Work"
+        android:label="How It work"
+        tools:layout="@layout/fragment_how__it__work" />
+</navigation>
